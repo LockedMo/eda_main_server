@@ -1,37 +1,16 @@
-# EDA_MAIN_SERVER
+# EDA 灵视一代玄武公安分局版本 v0.3
 
-#### 介绍
-author：gaobo
+## 一 、开发环境搭建
+### 1. 下载模型文件
+- 192.168.16.155 服务器 -- /data/ftpdata/version/EDA/EDA1.2.1/Resource/qdjc_models.zip
+- 解压qdjc_models.zip到src
 
-#### 软件架构
-软件架构说明
+### 2. 下载Resources资源包  
+- 192.168.16.155 服务器 -- /data/ftpdata/version/EDA/EDA1.2.1/Resource/qdjc_resources.zip
+- 解压qdjc_resources.zip到src/application
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 3.将Resources中的部分工具复制到src
+```python
+python copy_resources.py
+```
+- **增加新工具时请将文件或文件夹路径添加到copy_resources.py脚本中!** 
